@@ -9,7 +9,7 @@ https://github.com/datasets/covid-19
 
 * Using Choropleth map to Visualize Global Spread of COVID-19 from the first day of the pandemic
 
-[!]https://github.com/tsheng0315/COVID-19-visualization-analysis/blob/main/graph/Global%20Spread%20of%20COVID-19.png
+![]https://github.com/tsheng0315/COVID-19-visualization-analysis/blob/main/graph/Global%20Spread%20of%20COVID-19.png
 
 ### Task 2: Visualizing how intensive the COVID-19 Transmission has been in each country
 
