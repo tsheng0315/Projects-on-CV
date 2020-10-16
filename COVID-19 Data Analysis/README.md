@@ -55,3 +55,12 @@
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/COVID-19%20Data%20Analysis/graph/death%20rate%26%20GDP%20in%203.png)
 
+As we can see from the graphs, the infection rate and death rate in developed countries are slightly higher than in developing countries.
+
+According to my analysis, I think developed nations have more people who travel - and hence the 'initial wave' of infections would generally hit devceloped nations first. 
+
+Now that much more time has passed, we see developing nations are only now getting their exposure to the virus. Case in point Mexico. While USA had a large quantity of cases, Mexico was slow to diagnose patients as having Covid19. 
+
+I personally feel that the death rate will be higher in developing countries than in developed countries. It would be more interesting to re-do this study say in June 2021 after more time has passed to collect a new set of statistics. 
+
+In addition, there are medical doctors going on record in developed country USA stating they were (figuratively) having their arms twisted via some very out-of-the-ordinary directives being sent by CDC to label deaths (without doing proper determination of cause) as being due to covid19 - which would SKEW the death rates in such a developed country. While I can not say for sure, but possibly a similar agenda took place in other developed nations.
