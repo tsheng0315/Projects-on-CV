@@ -55,6 +55,7 @@
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/COVID-19%20Data%20Analysis/graph/death%20rate%26%20GDP%20in%203.png)
 
+## Summary
 As we can see from the graphs, the infection rate and death rate in developed countries are slightly higher than in developing countries.
 
 According to my analysis, I think developed nations have more people who travel - and hence the 'initial wave' of infections would generally hit devceloped nations first. 
