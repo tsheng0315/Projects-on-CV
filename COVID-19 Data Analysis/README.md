@@ -2,11 +2,9 @@
 
 * This project is based on COVID-19 dataset published by John Hopkins University, which consist of the data related to cumulative number of confirmed cases, per day, in each Country. 
 
-* Also we have another dataset consist of various life factors, scored by the people living in each country around the globe. 
+* The second dataset consist of various life factors, scored by the people living in each country around the globe. 
 
-* We are going to merge these two datasets to see if there is any relationship between the spread of the the virus in a country and how happy people are, living in that country.
-
-* We are going to preprocess and merge datasets to calculate needed measures and prepare them for an Analysis.
+* The target of this project is to see if there is any relationship between the spread of the the virus in a country and how happy people are, living in that country.
 
 ### Task 1: Check COVID-19 dataset 
 * Get a general outlook of COVID-19 dataset
@@ -14,36 +12,46 @@
 ### Task 2: Finding a good Measure
 * Decide on and calculate a good measure for our analysis.
 * Transmission of COVID-19 in China, Italy, and the UK
+
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/COVID-19%20Data%20Analysis/graph/cases%20in%20three%20countries%20in%20total%20.png)
 
 * Infection rate in China
+
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/COVID-19%20Data%20Analysis/graph/infection%20rate%20in%20china.png)
 
 * Aggregate Rows and Get The Maximum Infection Rate in Each Country
+
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/COVID-19%20Data%20Analysis/graph/max%20infection%20rate.png)
 
 ### Task 3: Importing World happiness report dataset
 * Merge World happiness report dataset, dropping useless columns, with COVID19 dataset to find correlations among our data.
 * Happiness Report
+
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/COVID-19%20Data%20Analysis/graph/Happiness%20.png)
 
 * Merged Table
+
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/COVID-19%20Data%20Analysis/graph/joined%20table.png)
 
 * Correlation Matrix of Merged Table
+
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/COVID-19%20Data%20Analysis/graph/correlation%20matrix%20between%20happiness%26infection.png)
 
 ### Task 4: Visualizing the results
 * Visualize results using `Seaborn`.
 * The relationship between `Max Infection Rate` and `GDP` in each country.
+
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/COVID-19%20Data%20Analysis/graph/New%20infection%20%26%20gdp.png)
 
 * The relationship between `Max Infection Rate` and `Social support` in each country.
+
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/COVID-19%20Data%20Analysis/graph/new%20infection%26social.png)
 
 * The relationship between `Max Infection Rate` and `Healthy life expectancy` in each country.
+
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/COVID-19%20Data%20Analysis/graph/new%20infection%26%20life%20expexctancy.png)
 
 * From the graph, it seems the infection rate in well developed countries are higher. But people may say it is because in developing countries many cases haven't been detected. So we turn to maximum death rate for help.
+
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/COVID-19%20Data%20Analysis/graph/death%20rate%26%20GDP%20in%203.png)
 
