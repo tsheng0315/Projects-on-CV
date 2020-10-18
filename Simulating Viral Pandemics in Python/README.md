@@ -58,8 +58,11 @@ We have: `N(t)=c=S(t)+I(t)+R(t)`
 
 This system is non-linear, however it is possible to derive its analytic solution in implicit form.[2] Firstly note that from:
 
-{\displaystyle {\frac {dS}{dt}}+{\frac {dI}{dt}}+{\frac {dR}{dt}}=0,}{\displaystyle {\frac {dS}{dt}}+{\frac {dI}{dt}}+{\frac {dR}{dt}}=0,}
+
 it follows that:
 
-{\displaystyle S(t)+I(t)+R(t)={\text{constant}}=N,}{\displaystyle S(t)+I(t)+R(t)={\text{constant}}=N,}
-expressing in mathematical terms the constancy of population {\displaystyle N}N. Note that the above relationship implies that one need only study the equation for two of the three variables.
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/3%20variablesum%20to%20zero.png)
+
+Expressing in mathematical terms the constancy of population N. Note that the above relationship implies that one need only study the equation for two of the three variables.
+
+
