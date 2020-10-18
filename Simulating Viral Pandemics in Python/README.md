@@ -28,16 +28,14 @@ This project aims in implementing an agent-based simulation of the SIR epidemiol
 * The number of removed (and immune/recovered) or deceased individuals. 
 * These are individuals who have been infected and have either recovered from the disease and entered the removed compartment, or died. It is assumed that the number of deaths is negligible with respect to the total population.
 
-The first step in the modeling process is to identify the independent and dependent variables. 
+#### Identify the independent and dependent variables. 
 
 * The independent variable is time `t`, measured in days.
-* The first set of dependent variables counts people in `S, I, R` respectively. 
+* The first set of dependent variables is number of people in `S, I, R` respectively. 
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/SIR%20variable.png)
 
 * The second set of dependent variables represents the fraction of the total population in each of the three categories.  
-* `N` is the total population.
-* The number of total population is a constant N(t)=c.
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/SIR%20variable%20fraction.png)
 
@@ -54,3 +52,6 @@ The first step in the modeling process is to identify the independent and depend
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/SIR%20formula.png)
 
+* `N` is the total population. The number of total population is a constant N(t)=c.
+
+We have: `N(t)=c=S(t)+I(t)+R(t)`
