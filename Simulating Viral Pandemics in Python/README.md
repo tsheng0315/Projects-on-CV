@@ -56,10 +56,13 @@ This project aims in implementing an agent-based simulation of the SIR epidemiol
 
 We have: `N(t)=c=S(t)+I(t)+R(t)`
 
-This system is non-linear, however it is possible to derive its analytic solution in implicit form.[2] Firstly note that from:
+This system is non-linear, however it is possible to derive its analytic solution in implicit form.
 
+Firstly note that from:
 
-it follows that:
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/differential%20sum%20to%20zero.png)
+
+It follows that:
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/3%20variablesum%20to%20zero.png)
 
