@@ -35,5 +35,6 @@ The first step in the modeling process is to identify the independent and depend
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/SIR%20variable.png)
 
 * The second set of dependent variables represents the fraction of the total population in each of the three categories.  `N` is the total population
+
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/SIR%20variable%20fraction.png)
 
