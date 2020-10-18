@@ -70,4 +70,8 @@ Expressing in mathematical terms the constancy of population N.
 
 Note that the above relationship implies that one need only study the equation for two of the three variables.
 
+The following graph integrates equations above for a disease characterised by parameters:
+* `β=0.2`, `1/γ=10` days, in a population of `N=1000` (perhaps 'flu in a school). 
+* The model is started with a single infected individual on `day 0`: `I(0)=1`
 
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/SIR%20basic%20graph.png)
