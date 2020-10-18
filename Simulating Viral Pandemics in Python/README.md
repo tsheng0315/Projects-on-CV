@@ -46,3 +46,7 @@ The first step in the modeling process is to identify the independent and depend
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/SIR%20relationship%20model.png)
 
+* Re-write the relashionship in Differential equations:
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/SIR%20formula.png)
+
