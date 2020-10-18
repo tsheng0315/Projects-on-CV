@@ -1,8 +1,8 @@
-## Simulating Viral Transmission
+# Simulating Viral Transmission
 
 This project aims in implementing an agent-based simulation of the SIR epidemiological model of contagion transmission in Python to simulating the pandemic spread.
 
-### Project Structure
+## Project Structure
 * Task 1: Exploring the basics of the SIR model
 * Task 2: Build the Basic Structure of SIR Model
 * Task 3: Run First Basic Simulation
@@ -37,4 +37,12 @@ The first step in the modeling process is to identify the independent and depend
 * The second set of dependent variables represents the fraction of the total population in each of the three categories.  `N` is the total population
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/SIR%20variable%20fraction.png)
+
+
+### Three representations of an SIR model
+
+* The relationship between S/I/R sows as follows. 
+* `β`, `γ` represent infection rate and removal rate respectively.
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/SIR%20relationship%20model.png)
 
