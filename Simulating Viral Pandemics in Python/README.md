@@ -80,3 +80,5 @@ The following graph integrates equations above for a disease characterised by pa
 
 ## Task 2: Build the Basic Structure of SIR Model
 
+In this task, I ran a agent based SIR modle simulation to track transmission of viral disease in a community in python
+
