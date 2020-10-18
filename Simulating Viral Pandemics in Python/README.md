@@ -66,6 +66,8 @@ It follows that:
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/3%20variablesum%20to%20zero.png)
 
-Expressing in mathematical terms the constancy of population N. Note that the above relationship implies that one need only study the equation for two of the three variables.
+Expressing in mathematical terms the constancy of population N. 
+
+Note that the above relationship implies that one need only study the equation for two of the three variables.
 
 
