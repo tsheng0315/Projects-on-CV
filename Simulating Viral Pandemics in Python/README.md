@@ -11,7 +11,8 @@ This project aims in implementing an agent-based simulation of the SIR epidemiol
 
 ### Task 1:  SIR Model for Spread of Disease
 * An SIR model is an epidemiological model that computes the theoretical number of people infected with a contagious illness in a **closed** population over time. 
-* The name of this models derives from the fact that they involve coupled equations relating the number of susceptible people S(t), number of people infected I(t), and number of people who have recovered R(t).
+* The number of total population is a constant N(t)=c.
+* The name of this models derives from the fact that they involve coupled equations relating the number of susceptible people S(t), number of people infected I(t), and number of people who have recovered/deseased R(t). 
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/SIR%20model%20intro.png)
 
@@ -34,7 +35,9 @@ The first step in the modeling process is to identify the independent and depend
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/SIR%20variable.png)
 
-* The second set of dependent variables represents the fraction of the total population in each of the three categories.  `N` is the total population
+* The second set of dependent variables represents the fraction of the total population in each of the three categories.  
+* `N` is the total population.
+* The number of total population is a constant N(t)=c.
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/SIR%20variable%20fraction.png)
 
@@ -42,11 +45,12 @@ The first step in the modeling process is to identify the independent and depend
 ### Three representations of an SIR model
 
 * The relationship between S/I/R sows as follows. 
-* `β`, `γ` represent infection rate and removal rate respectively.
+* `β`represents infection rate.
+* `γ` represents removal (recovery+ deceased) rate.
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/SIR%20relationship%20model.png)
 
-* Re-write the relashionship in Differential equations:
+* Re-write SIR Model in Differential equations:
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/SIR%20formula.png)
 
