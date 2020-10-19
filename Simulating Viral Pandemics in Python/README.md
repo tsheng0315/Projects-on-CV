@@ -80,5 +80,16 @@ The following graph integrates equations above for a disease characterised by pa
 
 ## Task 2: Build the Basic Structure of SIR Model
 
-In this task, I ran a agent based SIR modle simulation to track transmission of viral disease in a community in python
+In this task, I ran an agent based SIR modle simulation to track transmission of viral disease in a community in python
+
+* The infection radius is 0.6, recovery rate is 0.0006, death rate is0.001, in a population of `N=500` (perhaps 'flu in a school). 
+* The model is started with a single infected individual on `day 0`: `I(0)=2`
+* On day 1:
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%202-1.png)
+
+* A few days later:
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%202-2.png)
+
 
