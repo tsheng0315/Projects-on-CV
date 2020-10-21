@@ -4,10 +4,9 @@ This project aims in implementing an agent-based simulation of the SIR epidemiol
 
 ## Project Structure
 * Task 1: Exploring the basics of the SIR model
-* Task 2: Build the Basic Structure of SIR Model
-* Task 3: Run First Basic Simulation
-* Task 4: Simulating Mitigation Policies and Asymptomatic Populations
-* Task 5: Implement a real-world data for scientific simulations
+* Task 2: Build the Basic Structure of SIR Model and Run Basic Simulation
+* Task 3: Simulating Mitigation Policies and Asymptomatic Populations
+* Task 4: Implement a real-world data for scientific simulations
 
 ### Task 1:  SIR Model for Spread of Disease
 * An SIR model is an epidemiological model that computes the theoretical number of people infected with a contagious illness in a **closed** population over time. 
@@ -78,7 +77,7 @@ The following graph integrates equations above for a disease characterised by pa
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/SIR%20basic%20graph.png)
 
-## Task 2: Build the Basic Structure of SIR Model
+## Task 2: Build the Basic Structure of SIR Model and Run Basic Simulation
 
 In this task, I ran an agent based SIR modle simulation to track transmission of viral disease in a community in python
 
@@ -93,3 +92,20 @@ In this task, I ran an agent based SIR modle simulation to track transmission of
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%202-2.png)
 
 
+## Task 3: Simulating Mitigation Policies and Asymptomatic Populations
+
+In this task, I ran simulations on with/without masks, sanitary, and social distance. The results are as follows:
+
+In the beginning(without masks):
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%204%20without%20mask%201.png)
+
+At the end(without masks):
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%204%20without%20mask2.png)
+
+With masks:
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%204%20with%20mask.png)
+
+We can find that Mitigation Policies and Asymptomatic Populations do help in preventing transmission of pandemic.
