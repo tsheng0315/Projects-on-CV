@@ -6,27 +6,46 @@ This project aims at predicting the chance of being admitted into a particular U
 
 ## Project Structure
 
-Task 1: Problem Statement and Background
+### Task 1: Problem Statement and Background
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/intro.png)
 
-Task 2: Import Libraries and data-sets
+### Task 2: Check data-sets
 
-Task 3: Perform Exploratory Data Analysis
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/raw%20data.png)
+
+As shown in the table, the column 'Chance of Admit' is the result we hope to predict.
+
+And as the value in column 'Chance of Admit' is continuous, here I use Regression Model(If it is binary values like True/False, then we go for Classfication). 
+
+Task 3: Perform Exploratory Data Analysis 
+
+Here I perform exploratory data analysis and standardize the training and testing data.
+
+The desciption of data:
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/description%20of%20raw%20data.png)
+
+Group the data by university ratings to show more detailed information.
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/raw%20data%20group%20by%20rating.png)
+
 Task 4: Perform Data Visualization
+
 Task 5: Create Training And Testing Datasets
+
 Task 6: Train And Evaluate A Linear Regression Model
+
 Task 7: Train And Evaluate an Artificial Neural Networks Model
+
 Task 8: Train And Evaluate A Random Forest and Decision Tree Regressors
-Task 9: Understand the difference between regression KPIs
+
+Task 9: The difference between regression KPIs
+
 Task 10: Calculate regression model KPIs
 
 
 1. Understand the theory and intuition behind Multiple Linear Regression.
-
-2. Import Key python libraries, dataset and perform data visualization
-
-3. Perform exploratory data analysis and standardize the training and testing data.
 
 4. Train and Evaluate different regression models using Sci-kit Learn library.
 
