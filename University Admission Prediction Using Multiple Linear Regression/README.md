@@ -8,7 +8,10 @@ This project aims at predicting the chance of being admitted into a particular U
 
 Task 1: Problem Statement and Background
 
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/intro.png)
+
 Task 2: Import Libraries and data-sets
+
 Task 3: Perform Exploratory Data Analysis
 Task 4: Perform Data Visualization
 Task 5: Create Training And Testing Datasets
