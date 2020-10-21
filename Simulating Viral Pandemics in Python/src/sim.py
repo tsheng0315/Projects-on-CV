@@ -16,12 +16,6 @@ recovery_rate = 0.0006
 death_rate = .001
 stage_dimension = 100 # MxM square stage
 
-maskBool=False
-maskMod=.16
-
-SDbool=False
-SDmod= .1
-
 class Sim():
     def __init__(self,init):
         #init = [N,inf,recover,dead]
