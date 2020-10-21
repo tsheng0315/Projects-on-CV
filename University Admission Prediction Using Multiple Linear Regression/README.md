@@ -16,7 +16,7 @@ This project aims at predicting the chance of being admitted into a particular U
 
 As shown in the table, the column 'Chance of Admit' is the result we hope to predict.
 
-And as the value in column 'Chance of Admit' is continuous, here I use Regression Model(If it is binary values like True/False, then we go for Classfication). 
+And as the value in column 'Chance of Admit' is continuous, here I use Regression Model (If it is binary values like True/False, then we go for Classfication). 
 
 Task 3: Perform Exploratory Data Analysis 
 
@@ -29,6 +29,8 @@ The desciption of data:
 Group the data by university ratings to show more detailed information.
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/raw%20data%20group%20by%20rating.png)
+
+As we can see from the table, on average, the higher reating the university is, the higher GRE/TOEFL/GPA score, longer SOP, more strengh on Letter Of Recommendation and REsearch Experience students are. And chances of getting admitted are higher as well.
 
 Task 4: Perform Data Visualization
 
