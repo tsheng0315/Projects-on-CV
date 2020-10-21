@@ -1,6 +1,8 @@
 # Simulating Viral Transmission
 
-This project aims in implementing an agent-based simulation of the SIR epidemiological model of contagion transmission in Python to simulating the pandemic spread.
+This project aims in implementing an agent-based simulation of the SIR epidemiological model of contagion transmission in Python to simulating the pandemic spread based on data published by UK government 
+https://data.london.gov.uk/dataset/coronavirus--covid-19--cases.
+
 
 ## Project Structure
 * Task 1: Exploring the basics of the SIR model
@@ -109,3 +111,20 @@ With masks:
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%204%20with%20mask.png)
 
 We can find from the graphs above that when people begin to wear masks, pay attention to sanitary, and keep social distance, the infection rate gets lower and the recover rate gets higher(less red dots and more green dots on canvas). This means Mitigation Policies and Asymptomatic Populations do help in preventing transmission of pandemic.
+
+## Task 4: Implement a real-world data for scientific simulations
+
+* The total number of COVID-19 cases identified in London is 74,977 as at 19 October 2020.
+* The total popolation in London is around 9,304,000. 
+
+In the beginning(without masks):
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%204%20london%20without%201.png)
+
+At the end(without masks):
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%204%20london%20without%202.png)
+
+In the beginning(with masks):
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%204%20london%20with%202.png)
+
+At the end(with masks):
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%204%20london%20with2.png)
