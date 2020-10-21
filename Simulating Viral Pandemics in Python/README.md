@@ -118,13 +118,19 @@ We can find from the graphs above that when people begin to wear masks, pay atte
 * The total popolation in London is around 9,304,000. 
 
 In the beginning(without masks):
+
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%204%20london%20without%201.png)
 
 At the end(without masks):
+
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%204%20london%20without%202.png)
 
 In the beginning(with masks):
+
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%204%20london%20with%202.png)
 
 At the end(with masks):
+
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%204%20london%20with2.png)
+
+We can find that when people begin to wear masks,wash their hands, and keep social distance, the infection rate in London gets lower and the recover rate gets higher(less red dots and more green dots on canvas). 
