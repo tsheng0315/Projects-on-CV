@@ -108,4 +108,4 @@ With masks:
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%204%20with%20mask.png)
 
-We can find that Mitigation Policies and Asymptomatic Populations do help in preventing transmission of pandemic.
+We can find from the graphs above that when people begin to wear masks, pay attention to sanitary, and keep social distance, the recover rate gets higher(more grenn dots appears). This means Mitigation Policies and Asymptomatic Populations do help in preventing transmission of pandemic.
