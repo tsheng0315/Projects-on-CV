@@ -127,10 +127,10 @@ At the end(without masks):
 
 In the beginning(with masks):
 
-![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%204%20london%20with%202.png)
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/london%20with%201.png)
 
 At the end(with masks):
 
-![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/task%204%20london%20with2.png)
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Simulating%20Viral%20Pandemics%20in%20Python/graph/london%20with%202.png)
 
 We can find that when people begin to wear masks,wash their hands, and keep social distance, the infection rate in London gets lower and the recover rate gets higher(less red dots and more green dots on canvas). 
