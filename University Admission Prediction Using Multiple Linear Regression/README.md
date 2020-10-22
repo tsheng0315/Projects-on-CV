@@ -40,6 +40,16 @@ Create  histographs to obtain a general look of the distribution of data.
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/hist2.png)
 
+A general outlook of the relationships between `Chances of Admission` and other variables
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/task%204%20chance%20of%20admission%20vs%20reat.png)
+
+It seems that as GRE scores get higher, the chances of admission get higher. Positive relationship.
+
+Create the heatmap to show the correlation between `Chance of admission` and the rest variables.
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/task%204%20heatmap%20of%20variables.png)
+
 Task 5: Create Training And Testing Datasets
 
 Task 6: Train And Evaluate A Linear Regression Model
