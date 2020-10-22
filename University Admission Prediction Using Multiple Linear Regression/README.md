@@ -137,6 +137,22 @@ Tell you how good is your fit. (How well unseen samples are likely to be predict
 
 ### Task 10: Calculate regression model KPIs
 
+#### 
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/task%2010%20linear%20regression%20difference.png)
+
+If I have perfect prediction with my Linear Regression Model, here I should have a perfect 45 degree straight line. Although there is dispersion in the left part, the general trend looks good to me. 
+
+As we have apllied standard scaler on original data, we need to apply inversie tranform to present data in its original units. 
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/task%2010%20linear%20regression%20difference_original%20data.png)
+
+Then we calculate the KPIs of Linear Regression Model: 
+
+| MAE    | MSE    | RMSE  | R2     | Adjusted R2 |
+|--------|--------|-------|--------|-------------|
+| 0.0446 | 0.0040 | 0.063 | 0.8181 | 0.7991      |
+
+
 
 1. Understand the theory and intuition behind Multiple Linear Regression.
 
