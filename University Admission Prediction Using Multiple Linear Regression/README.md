@@ -137,6 +137,7 @@ Tell you how good is your fit. (How well unseen samples are likely to be predict
 
 ### Task 10: Calculate regression model KPIs
 
+In this part, I assess the performance of regression models and visualize the performance of the best model using various KPIs.
 #### 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/task%2010%20linear%20regression%20difference.png)
 
@@ -146,16 +147,13 @@ As we have apllied standard scaler on original data, we need to apply inversie t
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/task%2010%20linear%20regression%20difference_original%20data.png)
 
-Then we calculate the KPIs of Linear Regression Model: 
+Then I calculate the KPIs of Linear Regression Model: 
 
-| MAE    | MSE    | RMSE  | R2     | Adjusted R2 |
-|--------|--------|-------|--------|-------------|
-| 0.0446 | 0.0040 | 0.063 | 0.8181 | 0.7991      |
+|                   | MAE     | MSE    | RMSE  | R2     | Adjusted R2 |
+|-------------------|---------|--------|-------|--------|-------------|
+| Linear Regression | 0.0446  | 0.0040 | 0.063 | 0.8181 | 0.7991      |
+| Neural Network    | 0.0444  | 0.0040 | 0.064 | 0.8167 | 0.7991      |
+| Random Forest     | 0.04720 | 0.0046 | 0.068 | 0.7895 | 0.7991      |
 
 
-
-1. Understand the theory and intuition behind Multiple Linear Regression.
-
-6. Understand the difference between various regression models KPIs such as MSE, RMSE, MAE, R2, and adjusted R2.
-
-7. Assess the performance of regression models and visualize the performance of the best model using various KPIs.
+Here we can see, linear regression model works best, which means not the more complicated the model is, the higher precision we will get. 
