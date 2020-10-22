@@ -64,20 +64,81 @@ As the range of each variable is different, we need to standardize features by r
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/simple%20regression.png)
 
+* b: the intercept
+* m: the slope
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/multiple%20linear%20regression.png)
+
+Least Squares Method
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/obtain%20parameter%20of%20model.png)
+
+After training, the accuracy( coefficient of determination R^2 of the prediction) of Linear Regression Model is 0.8181.
+
 ### Task 7: Train And Evaluate an Artificial Neural Networks Model
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/task%207%20artifical%20NN.png)
+
+We are trying to optimise weights inside Neural Network to minimse the output error.
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/Task%207%20loss%20graph.png)
+
+The error in the beginning of trainning is high, over 100 epoches training, I was able to reduce the error significantly. 
+
+The accuracy (coefficient of determination R^2 of the prediction) of Neural Network Model is 0.7970
 
 ### Task 8: Train And Evaluate A Random Forest and Decision Tree Regressors
 
+#### Decision tree: 
+* A regression or classification model in the form of a tree structure. 
+* Desicion tree breaks down a dataset into smaller subset of data, and try to increamently build a decision tree consists of decision node and leaf node. 
+
+The accuracy (coefficient of determination R^2 of the prediction) of Decison Tree Model is 0.6038
+
+#### Random forest model: 
+* A regression or classification model in the form of a forest (multiple trees) structure. 
+* Instead of reply on the result of one tree, I combined the outcome of all decision trees to reduce overfitting of the data. 
+
+The accuracy (coefficient of determination R^2 of the prediction) of Random Forest Model is 0.7895
+
 ### Task 9: The difference between regression KPIs
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/Task%209%20access%20model%20performance.png)
+
+#### MAE
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/task%209%20model%20mertric%20MAE.png)
+
+#### MSE
+* MSE is more sensitive to error (residual) than MAE
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/task%209%20model%20metric%20MSE.png)
+
+#### RMSE
+* RMSE is easier to interpret compared to MSE, as the unit of this KPI is same as the input data. 
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/task%209%20model%20metric%20RMSE.png)
+
+#### R Squared-Coefficient of Determination
+* A statistical measure that represents the proportion of the variance for a dependent variable that's explained by an independent variable or variables in a **regression*** model.
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/task%209%20model%20metric%20R2.png)
+
+Tell you how good is your fit. (How well unseen samples are likely to be predicted by the model)
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/task%209%20model%20metric%20R2-2.png)
+
+#### Adjusted R Square
+
+* If we add one more independent variable to our model, and if that model doesn't improve the performance of our model, then we penaltise it. 
+* take into account how many independent variables are added to calculate our model.
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/task%209%20model%20metric-%20adjust%20R2.png)
 
 ### Task 10: Calculate regression model KPIs
 
 
 1. Understand the theory and intuition behind Multiple Linear Regression.
-
-4. Train and Evaluate different regression models using Sci-kit Learn library.
-
-5. Build and train an Artificial Neural Network to perform regression.
 
 6. Understand the difference between various regression models KPIs such as MSE, RMSE, MAE, R2, and adjusted R2.
 
