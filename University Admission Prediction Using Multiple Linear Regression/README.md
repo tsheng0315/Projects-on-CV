@@ -18,7 +18,7 @@ As shown in the table, the column 'Chance of Admit' is the result we hope to pre
 
 And as the value in column 'Chance of Admit' is continuous, here I use Regression Model (If it is binary values like True/False, then we go for Classfication). 
 
-Task 3: Perform Exploratory Data Analysis 
+### Task 3: Perform Exploratory Data Analysis 
 
 Here I perform exploratory data analysis and standardize the training and testing data.
 
@@ -32,7 +32,7 @@ Group the data by university ratings to show more detailed information.
 
 As we can see from the table, on average, the higher reating the university is, the higher GRE/TOEFL/GPA score, longer SOP, more strengh on Letter Of Recommendation and REsearch Experience students are. And chances of getting admitted are higher as well.
 
-Task 4: Perform Data Visualization
+### Task 4: Perform Data Visualization
 
 Create  histographs to obtain a general look of the distribution of data.
 
@@ -46,21 +46,31 @@ A general outlook of the relationships between `Chances of Admission` and other 
 
 It seems that as GRE scores get higher, the chances of admission get higher. Positive relationship.
 
-Create the heatmap to show the correlation between `Chance of admission` and the rest variables.
+Create the heatmap to show the correlation between variables.
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/task%204%20heatmap%20of%20variables.png)
 
-Task 5: Create Training And Testing Datasets
+Here we can find some hidden relationships between variables. 
 
-Task 6: Train And Evaluate A Linear Regression Model
+For example, the correlation between GRE score and TOEFL score is 0.83. This means there is a strong relationship between them.
 
-Task 7: Train And Evaluate an Artificial Neural Networks Model
+And `CGPA`, `GRE Score`, and `TOEFL Score` have higher influence on `Chance of Admission` than `Research Experience`.  
 
-Task 8: Train And Evaluate A Random Forest and Decision Tree Regressors
+### Task 5: Create Training And Testing Datasets
 
-Task 9: The difference between regression KPIs
+As the range of each variable is different, we need to standardize features by removing the mean and scaling to unit variance, incase they cause any bia to the model.
 
-Task 10: Calculate regression model KPIs
+### Task 6: Train And Evaluate A Linear Regression Model
+
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/University%20Admission%20Prediction%20Using%20Multiple%20Linear%20Regression/graphs/simple%20regression.png)
+
+### Task 7: Train And Evaluate an Artificial Neural Networks Model
+
+### Task 8: Train And Evaluate A Random Forest and Decision Tree Regressors
+
+### Task 9: The difference between regression KPIs
+
+### Task 10: Calculate regression model KPIs
 
 
 1. Understand the theory and intuition behind Multiple Linear Regression.
