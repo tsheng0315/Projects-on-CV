@@ -27,10 +27,14 @@ Access the performance of the trained model
 ## Task 1: Understand the Problem Statement and business case
 
 * Right now we are in a world of mis-information and fake news. This project aims at detecting fake news with Recurrent Neural Networks and LSTM (a type of Recurrent Neural Networks)
+
 * Natural Language Processing (NLP) work by converting words(text) into numbers. 
-* These numbers are then used to train an AI/ML model to make predictions. 
+
+* These numbers are then used to train an AI/ML model to make predictions.
+
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Fake%20News%20Detection%20with%20Machine%20Learning/graphs/task%201%20intro.png)
 
+It is like I'm going to make a binary classification to tell whether the input news is True/ Fake. 
  
 ## Task 2: Import libraries and datasets
 
