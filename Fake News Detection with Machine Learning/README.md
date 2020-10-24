@@ -29,8 +29,13 @@ Project Structure
 
 The project on NLP : Fake News Detector is divided into following tasks:
 
-Task #1: Understand the Problem Statement and business case
+## Task 1: Understand the Problem Statement and business case
 
+* Right now we are in a world of mis-information and fake news. This project aims at detecting fake news with Recurrent Neural Networks and LSTM (a type of Recurrent Neural Networks)
+* Natural Language Processing (NLP) work by converting words(text) into numbers. 
+* These numbers are then used to train an AI/ML model to make predictions. 
+![]()
+ 
 Task #2: Import libraries and datasets
 
 Task #3: Perform Exploratory Data Analysis
