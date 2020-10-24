@@ -1,6 +1,6 @@
 # NLP Fake News Detector
 
-This project aim at detecting fake new using a Recurrent Neural Network. 
+* This project aim at detecting fake new using a Recurrent Neural Network. 
 
 I train a Long Short Term Memory (LSTM) network to detect fake news from a given news corpus. 
 
@@ -24,31 +24,27 @@ Build and train the deep learning model
 Access the performance of the trained model
 
 
-
-Project Structure
-
-The project on NLP : Fake News Detector is divided into following tasks:
-
 ## Task 1: Understand the Problem Statement and business case
 
 * Right now we are in a world of mis-information and fake news. This project aims at detecting fake news with Recurrent Neural Networks and LSTM (a type of Recurrent Neural Networks)
 * Natural Language Processing (NLP) work by converting words(text) into numbers. 
 * These numbers are then used to train an AI/ML model to make predictions. 
-![]()
+![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Fake%20News%20Detection%20with%20Machine%20Learning/graphs/task%201%20intro.png)
+
  
-Task #2: Import libraries and datasets
+## Task 2: Import libraries and datasets
 
-Task #3: Perform Exploratory Data Analysis
+## Task 3: Perform Exploratory Data Analysis
 
-Task #4: Perform Data Cleaning
+## Task 4: Perform Data Cleaning
 
-Task #5: Visualize the cleaned data
+## Task 5: Visualize the cleaned data
 
-Task #6: Prepare the data by tokenizing and padding
+## Task 6: Prepare the data by tokenizing and padding
 
-Task #7: Understand the theory and intuition behind Recurrent Neural Networks and LSTM
+## Task 7: Understand the theory and intuition behind Recurrent Neural Networks and LSTM
 
-Task #8: Build and train the model
+## Task 8: Build and train the model
 
-Task #9: Assess trained model performance
+## Task 9: Assess the performance of trained model
 
