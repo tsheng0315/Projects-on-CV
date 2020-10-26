@@ -1,6 +1,6 @@
 # COVID-19-Data-Analysis
 
-* This project aims to find if there is any relationship between the spread of the the virus in a country and how happy people are, living in that country.
+* This project aims to find the relationship between the spread of the the virus in a country and how happy people are, living in that country.
 
 
 * This project is based on COVID-19 dataset published by John Hopkins University, which consist of the data related to cumulative number of confirmed cases, per day, in each Country. 
