@@ -1,21 +1,10 @@
 # NLP Fake News Detector
 
-* This project aim at detecting fake new using a Recurrent Neural Network. 
+* This project aims at detecting fake new using a Recurrent Neural Network. 
 
-I train a Long Short Term Memory (LSTM) network to detect fake news from a given news corpus. 
+Train a Long Short Term Memory (LSTM) network to detect fake news from a given news corpus. 
 
 This project could be practically used by media companies to automatically predict whether the circulating news is fake or not. 
-
-
-
-Perform exploratory data analysis and plot word-cloud
-
-Perform text data cleaning such as removing punctuation and stop words
-
-Understand the concept of tokenizer.
-
-Perform tokenizing and padding on text corpus to feed the deep learning model.
-
 
 ## Task 1: Understand the Problem Statement and business case
 
@@ -40,7 +29,7 @@ It is like I'm going to make a binary classification to tell whether the input n
 * I find the number of record of our two dataset(fake news and true news) are almost same( 23481 and 21417 seperately). 
 * This means I have balanced datasets. And there is no Null element(`isnull()` checking).
 
-## Task 3: Perform Exploratory Data Analysis
+## Task 3: Perform Exploratory Data Analysis 
 
 * For better data manipulation, I add a column `isfake` to indicate whether the news is real or fake. 
 
@@ -52,7 +41,7 @@ It is like I'm going to make a binary classification to tell whether the input n
 
 ![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%203%20title%2Btext.png)
 
-## Task 4: Perform Data Cleaning
+## Task 4: Perform text data cleaning such as removing punctuation and stop words
 
 * First, I add some stop words (stop words are words that occur in abundance, hence providing little to no unique information that can be used for classification or clustering and should be filtered out before processing of natural language data)
 
@@ -64,7 +53,7 @@ It is like I'm going to make a binary classification to tell whether the input n
 
 * Second, I remove stopwords from the content of `text`.
 
-## Task 5: Visualize the cleaned data
+## Task 5: Perform exploratory data analysis and plot word-cloud for better visualization
 
 * Visulalize the distribution of subjects of news
 
@@ -83,7 +72,8 @@ It is like I'm going to make a binary classification to tell whether the input n
 
 ![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%205%20length%20of%20one%20doc.png)
 
-## Task 6: Prepare the data by tokenizing and padding
+## Task 6: Perform tokenizing and padding on text corpus to feed the deep learning model.
+
 * In this part I use tokenizing techniques to turn words into numbers for training and testing.
 
 ![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%206%20token.png)
@@ -131,7 +121,7 @@ It is like I'm going to make a binary classification to tell whether the input n
 
 ![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%207%20rnn%209%20vanishing%20gradient.png)
 
-## Task 8: Build and train the model
+## LSTM 
 
 * RNN fails to hold long time memory, due to the vanishing gradient problem.
 * If there are multiple layers inside a Recurrent Neural Network, in back-propagation we will find parameters stop to change at a point. 
@@ -145,7 +135,29 @@ It is like I'm going to make a binary classification to tell whether the input n
 
 ![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%208%20lstm%204.png)
 
+## PCA technique to embed data
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%209%20-1.png)
+
+## Task 8: Build and train the model
+
+* Use TensorFlow 2.0 and keras to build our model. 
+
+* The data is actually divided into several parts: 
+
+| total data | training data | real training data       |
+|------------|---------------|--------------------------|
+|            |               | crossing validation data |
+|            | testing data  |                          |
+
+* Apply cross-validation to ensure the model to be generalised and is not overfitting. 
+
+* The error on training data is decreasing , the error on validation data is decreasing, this means the model is not overfitting on training data. 
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%209%20training%20result.png)
+
 ## Task 9: Assess the performance of trained model
 
+My model reached an accuracy of   on testing data set.  
 
 
