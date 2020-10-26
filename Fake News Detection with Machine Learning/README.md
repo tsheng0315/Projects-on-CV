@@ -165,6 +165,8 @@ The confusion matric like this:
 
 ![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%2010%20confusion%20matric.png)
 
+My model took 4 pieces of true news as fake news, and took 3 pieces of fake news as true news. 
+
 
 
 
