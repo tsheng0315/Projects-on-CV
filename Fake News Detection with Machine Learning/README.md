@@ -38,17 +38,78 @@ It is like I'm going to make a binary classification to tell whether the input n
  
 ## Task 2: Import libraries and datasets
 
+* In this project, I'm going to use `Pandas` for dataframe manipulation, `Numpy` for numerical analysis, `Seaborn` and `matplotlib` for data visualisation, `nltk` and `gensim` for natural languages processing, on `tensorflow`(`keras`) platform.
+
+* Import and check data: 
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%202%20true%20news.png)
+
+* I find the number of record of our two dataset(fake news and true news) are almost same( 23481 and 21417 seperately). 
+* This means I have balanced datasets. And there is no Null element(`isnull()` checking).
+
 ## Task 3: Perform Exploratory Data Analysis
+
+* For better data manipulation, I add a column `isfake` to indicate whether the news is real or fake. 
+
+* Then I concatenate Real and Fake News to form a new table.
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%203%20concat%20two%20table%20into%20one%20table%20.png)
+
+* Next, I combine `title` and `text` to create a new column together.
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%203%20title%2Btext.png)
 
 ## Task 4: Perform Data Cleaning
 
+* First, I add some stop words (stop words are words that occur in abundance, hence providing little to no unique information that can be used for classification or clustering and should be filtered out before processing of natural language data)
+
+* Source of stopwords:
+
+1. pre-defined stop words from `nltk` library
+2. self-defined stop words
+3. pre-defined stop words from `gensim` library
+
+* Second, I remove stopwords from the content of `text`.
+
 ## Task 5: Visualize the cleaned data
 
+* Visulalize the distribution of subjects of news
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%205%20show%20subject.png)
+
+* Use word cloud to show the impotance of words in fake news
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%205%20fake%20news%20word%20cloud.png)
+
+
+* Use word cloud to show the impotance of words in true news
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%205%20true%20new%20word%20cloud.png)
+
+* Use a histograph to show the distribution of the length of a doc.
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%205%20length%20of%20one%20doc.png)
+
 ## Task 6: Prepare the data by tokenizing and padding
+* In this part I use tokenizing techniques to turn words into numbers for training and testing.
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%206%20token.png)
+
+* Divide news data into training data set and testing data set.
+
+* Create a tokenizer to tokenize the words and create sequences of tokenized words.
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%206%20encoding%20text%20.png)
+
+* Add padding can either be maxlen = 4406 or smaller number maxlen = 40 seems to work well based on results
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%206%20padding.png)
 
 ## Task 7: Understand the theory and intuition behind Recurrent Neural Networks and LSTM
 
+
 ## Task 8: Build and train the model
+
 
 ## Task 9: Assess the performance of trained model
 
