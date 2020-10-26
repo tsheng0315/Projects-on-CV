@@ -113,13 +113,37 @@ It is like I'm going to make a binary classification to tell whether the input n
 
 ![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%207%20rnn%203%20why%20special.png)
 
-#### The difference of input-output networks
+#### The Difference of input-output Networks
 
 ![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%207%20rnn%204%20why%20special.png)
 
+#### Gradient Descent
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%207%20rnn%205%20gradient%20descent.png)
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%207%20rnn%206%20gradient%20descent.png)
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%207%20rnn%207%20gradient%20descent.png)
+
+#### Vanishing Gradient
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%207%20rnn%208%20vanishing%20gradient.png)
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%207%20rnn%209%20vanishing%20gradient.png)
+
 ## Task 8: Build and train the model
 
+* RNN fails to hold long time memory, due to the vanishing gradient problem.
+* If there are multiple layers inside a Recurrent Neural Network, in back-propagation we will find parameters stop to change at a point. 
+* So turn to LSTM for help.
 
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%208%20LSTM.png)
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%208%20lstm%202.png)
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%208%20lstm%203.png)
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%208%20lstm%204.png)
 
 ## Task 9: Assess the performance of trained model
 
