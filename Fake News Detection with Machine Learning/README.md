@@ -145,9 +145,10 @@ It is like I'm going to make a binary classification to tell whether the input n
 
 * The data is actually divided into several parts: 
 
-| total data | training data | real training data       |
+|     Data   |               |                          |
 |------------|---------------|--------------------------|
-|            |               | crossing validation data |
+|  total data| training data | real training data       |
+|            |               |crossing validation data  |
 |            | testing data  |                          |
 
 * Apply cross-validation to ensure the model to be generalised and is not overfitting. 
@@ -158,6 +159,6 @@ It is like I'm going to make a binary classification to tell whether the input n
 
 ## Task 9: Assess the performance of trained model
 
-My model reached an accuracy of   on testing data set.  
+My model reached an accuracy of on testing data set.  
 
 
