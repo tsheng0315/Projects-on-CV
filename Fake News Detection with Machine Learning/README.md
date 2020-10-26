@@ -159,6 +159,12 @@ It is like I'm going to make a binary classification to tell whether the input n
 
 ## Task 9: Assess the performance of trained model
 
-My model reached an accuracy of on testing data set.  
+My model reached an accuracy of 0.9992 on testing data set after 5 epoches training.  
+
+The confusion matric like this: 
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%2010%20confusion%20matric.png)
+
+
 
 
