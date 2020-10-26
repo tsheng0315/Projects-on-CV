@@ -1,4 +1,4 @@
-# Fake News Detection with NLP and Machine Learning
+# Fake News Detection Using NLP and Machine Learning
 
 * This project aims at detecting fake new using a Recurrent Neural Network. 
 
