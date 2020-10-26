@@ -1,13 +1,13 @@
 
 # COVID-19-visualization-analysis
  
-* This project aims at:
+This project aims at:
 
 * Visualize Global Spread of COVID-19 
 * Show how massive the Spread of the virus in main cities.
 * Analyse the impact of the national lockdown in Italy on the spread of the virus
  
-* This project is based on the database maintained by the team at Johns Hopkins University Center for Systems Science and Engineering (CSSE) 
+The database maintained by the team at Johns Hopkins University Center for Systems Science and Engineering (CSSE) 
 https://github.com/datasets/covid-19
 
 
