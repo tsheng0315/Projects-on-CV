@@ -7,7 +7,6 @@ I train a Long Short Term Memory (LSTM) network to detect fake news from a given
 This project could be practically used by media companies to automatically predict whether the circulating news is fake or not. 
 
 
-Apply python libraries to import and visualize dataset
 
 Perform exploratory data analysis and plot word-cloud
 
@@ -16,12 +15,6 @@ Perform text data cleaning such as removing punctuation and stop words
 Understand the concept of tokenizer.
 
 Perform tokenizing and padding on text corpus to feed the deep learning model.
-
-Understand the theory and intuition behind Recurrent Neural Networks and LSTM
-
-Build and train the deep learning model
-
-Access the performance of the trained model
 
 
 ## Task 1: Understand the Problem Statement and business case
@@ -118,7 +111,11 @@ It is like I'm going to make a binary classification to tell whether the input n
 
 ![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%207%20RNN%202%20architecture%20.png)
 
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%207%20rnn%203%20why%20special.png)
 
+#### The difference of input-output networks
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%207%20rnn%204%20why%20special.png)
 
 ## Task 8: Build and train the model
 
