@@ -2,9 +2,9 @@
 
 * This project aims at detecting fake new using a Recurrent Neural Network. 
 
-Train a Long Short Term Memory (LSTM) network to detect fake news from a given news corpus. 
+* Train a Long Short Term Memory (LSTM) network to detect fake news from a given news corpus. 
 
-This project could be practically used by media companies to automatically predict whether the circulating news is fake or not. 
+* This could be practically used by media companies to automatically predict whether the circulating news is fake or not. 
 
 ## Task 1: Understand the Problem Statement and business case
 
