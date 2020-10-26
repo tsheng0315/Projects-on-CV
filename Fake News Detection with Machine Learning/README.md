@@ -101,15 +101,30 @@ It is like I'm going to make a binary classification to tell whether the input n
 
 ![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%206%20encoding%20text%20.png)
 
-* Add padding can either be maxlen = 4406 or smaller number maxlen = 40 seems to work well based on results
+* Add padding to make all news with the same length (either be maxlen = 4406 or smaller number maxlen = 40 ) seems to work well based on results.
 
 ![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%206%20padding.png)
 
 ## Task 7: Understand the theory and intuition behind Recurrent Neural Networks and LSTM
 
+#### Structure of RNN
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%207%20RNN%20into%201.png)
+
+* The output will be feed back as input. 
+* The output will not only depend on inputs but also depend on what happened in previous time, so we have some sort of memory effects
+
+#### RNN works good with sequence of text 
+
+![](https://github.com/Gravel-yard/FakeNewsDetector-data/blob/main/graphs/task%207%20RNN%202%20architecture%20.png)
+
+
 
 ## Task 8: Build and train the model
 
 
+
 ## Task 9: Assess the performance of trained model
+
+
 
