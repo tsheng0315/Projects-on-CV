@@ -21,11 +21,12 @@ Developed a time series forecasting model to predictions on the price of avocado
 * As can be found from the bar chart, the distribution between regions is quite even, which is good.
 
 
-* plot Bar Chart to indicate the count in every year to see whether data equally recorded among years or not.
+* Here I plot a Bar Chart to indicate the count in every year to see whether data equally recorded among years or not.
 
 ![](https://github.com/tsheng0315/Projects-on-CV/blob/main/Predict%20Future%20Product%20Prices%20using%20Facebook%20Prophet/graph/task%203%20region%20barchart.png)
 
-Then I use `catplot()` function to provide access to several axes-level functions that show the relationship between a numerical and one or more categorical variables using one of several visual representations. 
+
+* Then I use `catplot()` function to provide access to several axes-level functions that show the relationship between a numerical and one or more categorical variables using one of several visual representations. 
 
 * Compare the avocado prices vs. regions for conventional avocados.
 
