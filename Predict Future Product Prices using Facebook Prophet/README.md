@@ -75,6 +75,7 @@ The data that I actually need are just `Date` and `Average Price`. Here we drop 
 ## TASK 7: DEVELOP MODEL AND MAKE PREDICTIONS (REGION SPECIFIC) - PART B
 
 In this part, we just focous on the west region of the US to get more accurate predictions. 
+![]()
 
 * Here I plot `Date` and `Average Price` to give a general idea of what the trend is in the west of the US. 
 
